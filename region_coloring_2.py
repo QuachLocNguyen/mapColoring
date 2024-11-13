@@ -90,6 +90,6 @@ if __name__=='__main__':
                 vi_tri = mau_xam.index(r)
                 mau = mau_mau[vi_tri]
                 image_s[x,y,:] = mau
-    cv2.imshow('Image', image_s)
+    # cv2.imshow('Image', image_s)
     st.image(image_s, channels="RGB")
     cv2.waitKey()
