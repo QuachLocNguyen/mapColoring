@@ -2,4 +2,4 @@ streamlit
 base58
 numpy
 simpleai
-opencv
+opencv-python-headless
