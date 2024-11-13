@@ -92,4 +92,4 @@ if __name__=='__main__':
                 image_s[x,y,:] = mau
     # cv2.imshow('Image', image_s)
     st.image(image_s, channels="RGB")
-    cv2.waitKey()
+    # cv2.waitKey()
