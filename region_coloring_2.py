@@ -3,7 +3,7 @@
 # Artificial Intelligence with Python, 
 # 2nd Edition, Packt, 2020
 # Trang 234
-
+import streamlit as st
 import cv2
 import numpy as np
 
@@ -91,4 +91,5 @@ if __name__=='__main__':
                 mau = mau_mau[vi_tri]
                 image_s[x,y,:] = mau
     cv2.imshow('Image', image_s)
+    st.image(image_s, channels="RGB")
     cv2.waitKey()
